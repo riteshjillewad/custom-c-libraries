@@ -23,11 +23,9 @@ A lightweight, efficient, and custom **C library** dedicated entirely to mathema
 Keep your project cleanly organized like this:
 ```text
 mydigitlib/
-├── src/
-│   └── mydigitlib.c    # Core function implementations
-├── include/
-│   └── mydigitlib.h    # Header file with prototypes & dependencies
-└── README.md           # This awesome documentation
+├── mydigitlib.c    # Core function implementations
+├── mydigitlib.h    # Header file with prototypes & dependencies
+└── README.md       # This awesome documentation
 ```
 
 ## 💻 Usage
