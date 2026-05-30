@@ -28,6 +28,31 @@ mydigitlib/
 └── README.md       # This awesome documentation
 ```
 
+## 📋 Available Functions Reference
+
+| Category | Function Prototype | Return Type | Description |
+| :--- | :--- | :--- | :--- |
+| **Basic Digit Math** | `displayDigits(int num)` | `void` | Extracts and prints each individual digit of the number to the console. |
+| | `sumDigits(int num)` | `int` | Calculates and returns the sum of all digits in the number. |
+| | `productDigits(int num)` | `int` | Computes and returns the running product of all digits. |
+| | `countDigits(int num)` | `int` | Counts and returns the total number of digits present. |
+| | `reverseNumber(int num)` | `int` | Reverses the digit order (e.g., handles `1234` $\rightarrow$ `4321`). |
+| **Filters & Extractors** | `countEvenDigits(int num)` | `int` | Counts and returns the number of even digits. |
+| | `countOddDigits(int num)` | `int` | Counts and returns the number of odd digits. |
+| | `displayPrimeDigits(int num)` | `void` | Isolates and displays only the prime digits (`2`, `3`, `5`, `7`). |
+| | `getSmallestDigit(int num)` | `int` | Scans the number and returns the mathematically lowest single digit. |
+| | `getLargestDigit(int num)` | `int` | Scans the number and returns the mathematically highest single digit. |
+| **Search & Relations**| `digitFrequency(int num, int target)`| `int` | Counts how many times a `target` digit appears inside `num`. |
+| | `findDigit(int num, int target)` | `void` | Finds and prints the 1-indexed position of `target` from right to left. |
+| | `digitAnagrams(int num1, int num2)`| `bool` | Returns `true` if both numbers share identical digit frequencies. |
+| **Property Checkers** | `isPalindrome(int num)` | `bool` | Checks if the integer reads the same forwards and backwards. |
+| | `checkHarshad(int num)` | `bool` | Verifies if the number is divisible by the sum of its own digits. |
+| | `checkStrong(int num)` | `bool` | Verifies if the sum of the factorials of its digits equals the number. |
+| | `checkArmstrong(int num)` | `bool` | Verifies if the sum of its digits raised to the power of total digits equals the number. |
+| | `checkAutomorphic(int num)`| `bool` | Checks if the square of the number ends in the same digits as the number. |
+| **Internal Helpers** | `power(int base, int exponent)` | `int` | Custom implementation to calculate mathematical powers manually. |
+
+
 ## 💻 Usage
 
 ### **1. Include the Header**
@@ -65,10 +90,10 @@ gcc main.c mydigitlib.c -o myexe
 ./myexe
 ```
 
-### ⚠️ Note
+## ⚠️ Note
 
 * **Index Scanning**: The `findDigit` utility scans numbers sequentially from right to left (the order in which digits are mathematically stripped using % 10).
 * **Math Dependencies**: The library safely uses `abs()` and limits configurations internally to process negative integers gracefully without crashing.
 
-### 🤝 Author
+## 🤝 Author
 **Ritesh Jillewad**
