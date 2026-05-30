@@ -1,4 +1,4 @@
-# 🔢 mydigitlib
+# 🔢 Custom Digit Library
 
 [![Language](https://img.shields.io/badge/Language-C99-00599C?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-emerald?style=for-the-badge)](https://GitHub.com/yourusername/mydigitlib/graphs/commit-activity)
